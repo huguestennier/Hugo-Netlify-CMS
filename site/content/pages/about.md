@@ -5,8 +5,7 @@ description: >-
   high-performant sites and web-apps. Learn more about Netlify.
 url: /about/
 layout: about
-styleoverrides: /about.css
-thisspecialfeed: "hugues"
+styleoverrides: thisnew.css
 bios:
   - blurb: >-
       Schoolteacher turned developer turned developer educator and
@@ -20,5 +19,11 @@ bios:
         type: Video
         url: 'https://www.youtube.com/watch?v=WDYQoZ-QDRM&feature=youtu.be'
     name: Jessica Parsons
+  - blurb: Bkurbbr
+    job-title: FED
+    links:
+      - title: Accessibility
+        url: 'https://www.google.com'
+    name: Hugues
 ---
 
