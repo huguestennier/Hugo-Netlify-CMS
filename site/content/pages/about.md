@@ -6,6 +6,7 @@ description: >-
 url: /about/
 layout: about
 styleoverrides: /about.css
+thisspecialfeed: "hugues"
 bios:
   - blurb: >-
       Schoolteacher turned developer turned developer educator and

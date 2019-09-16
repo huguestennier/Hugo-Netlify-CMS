@@ -102,4 +102,4 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {label: Title, name: title, widget: string}
                   - {label: url, name: url, widget: string}
-                  - {label: Type, name: type, widget: select, options: ['Video']}
+                  - {label: Type, name: type, widget: select, options: ['Video'], required: false}
