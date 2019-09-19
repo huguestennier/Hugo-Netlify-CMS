@@ -80,26 +80,18 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
-      - file: "site/content/pages/about.md"
-        label: "About page"
-        name: "about"
+      - file: "site/content/pages/billing-faq.md"
+        label: "Billing FAQ"
+        name: "billing-faq"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: string}
-          - {label: url, name: url, widget: string}
-          - {label: layout, name: layout, widget: string}
-          - {label: styleoverrides, name: styleoverrides, widget: string}
-          - label: Bios
-            name: bios
+          - {label: url, name: url, widget: hidden, default: "/pricing/faq"}
+          - {label: layout, name: layout, widget: hidden, default: "about"}
+          - {label: styleoverrides, name: styleoverrides, widget: hidden, default: "/about.css"}
+          - label: FAQs
+            name: faqs
             widget: list
             fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Job title, name: job-title, widget: string}
-              - {label: Blurb, name: blurb, widget: text}
-              - label: Links
-                name: links
-                widget: list
-                fields:
-                  - {label: Title, name: title, widget: string}
-                  - {label: url, name: url, widget: string}
-                  - {label: Type, name: type, widget: select, options: ['Video'], required: false}
+              - {label: Question, name: question, widget: string}
+              - {label: Answer, name: answer, widget: markdown}
