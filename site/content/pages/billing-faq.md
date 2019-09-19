@@ -6,24 +6,10 @@ description: >-
 url: /about/
 layout: about
 styleoverrides: thisnew.css
-bios:
-  - blurb: >-
-      Schoolteacher turned developer turned developer educator and
-      documentarian.
-    job-title: Documentation Engineer
-    links:
-      - title: 'Write The Docs: Static Site Generators'
-        type: Video
-        url: 'https://www.youtube.com/watch?v=ClujZ80mqxE'
-      - title: Docs-driven Development
-        type: Video
-        url: 'https://www.youtube.com/watch?v=WDYQoZ-QDRM&feature=youtu.be'
-    name: Jessica Parsons
-  - blurb: Bkurbbr
-    job-title: FED
-    links:
-      - title: Accessibility
-        url: 'https://www.google.com'
-    name: Hugues
+faq:
+  - answer: Answer goes here
+    question: What is a build minute?
+  - answer: '**Second answer** will go here'
+    question: 'How do you incur more or less build minutes? '
 ---
 
