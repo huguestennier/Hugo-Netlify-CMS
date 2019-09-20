@@ -7,6 +7,19 @@ url: /about/
 layout: about
 styleoverrides: thisnew.css
 customers:
-  - company: Citrix
+  - categories:
+      - Documentation
+    color: '#1A79B9'
+    company: Citrix
+    ctas:
+      - label: Case Study
+        url: >-
+          https://www.netlify.com/blog/2019/06/12/jamstack_conf-nyc-session-recap-citrix-delivers-better-ux-with-less-overhead-using-jamstack-and-netlify/
+    description: >-
+      Citrix executed a massive migration of their product documentation to
+      Netlify ahead of schedule, resulting in a 65% cost savings and a
+      significantly better user experience, measured in faster page loads,
+      faster publishing times and improved customer satisfaction.
+    subtitle: Reduced cost 65%
 ---
 
