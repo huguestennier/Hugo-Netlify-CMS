@@ -20,6 +20,7 @@ customers:
       Netlify ahead of schedule, resulting in a 65% cost savings and a
       significantly better user experience, measured in faster page loads,
       faster publishing times and improved customer satisfaction.
+    logo: /img/citrix-white.svg
     subtitle: Reduced cost 65%
 ---
 
