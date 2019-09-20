@@ -6,10 +6,7 @@ description: >-
 url: /about/
 layout: about
 styleoverrides: thisnew.css
-faq:
-  - answer: Answer goes here
-    question: What is a build minute?
-  - answer: '**Second answer** will go here'
-    question: 'How do you incur more or less build minutes? '
+customers:
+  - company: Citrix
 ---
 
