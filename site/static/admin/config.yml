@@ -89,9 +89,37 @@ collections: # A list of collections the CMS should be able to edit
           - {label: url, name: url, widget: hidden, default: "/pricing/faq"}
           - {label: layout, name: layout, widget: hidden, default: "about"}
           - {label: styleoverrides, name: styleoverrides, widget: hidden, default: "/about.css"}
-          - label: FAQs
-            name: faqs
+          - label: FAQ
+            name: faq
             widget: list
             fields:
               - {label: Question, name: question, widget: string}
               - {label: Answer, name: answer, widget: markdown}
+      - file: "site/content/pages/customers.md"
+        label: "Customers list"
+        name: "customers"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: string}
+          - {label: url, name: url, widget: hidden, default: "/pricing/faq"}
+          - {label: layout, name: layout, widget: hidden, default: "about"}
+          - {label: styleoverrides, name: styleoverrides, widget: hidden, default: "/about.css"}
+          - label: Customers
+            name: customers
+            widget: list
+            fields:
+              - {label: Company, name: company, widget: string}
+              - {label: Description, name: description, widget: text}
+              - label: Call to actions
+                name: ctas
+                widget: list
+                fields:
+                  - {label: Label, name: label, widget: string}
+                  - {label: URL, name: url, widget: string}
+              - label: Categories
+                name: categories
+                widget: "select"
+                multiple: true
+                options: ["Documentation", "Corporate Site", "Advertising/campaign", "Media"]
+              - {label: Color, name: color, widget: string}
+              - {label: Logo, name: logo, widget: image}
