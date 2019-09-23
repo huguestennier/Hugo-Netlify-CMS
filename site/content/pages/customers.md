@@ -22,5 +22,11 @@ customers:
       faster publishing times and improved customer satisfaction.
     logo: /img/citrix-white.svg
     subtitle: Reduced cost 65%
+    widgets:
+      - author: 'Vitaly Freidman, Co-founder & Editor-In-Chief for Smashing Magazine'
+        quote: >-
+          "We have what we always wanted in terms of flexibility, speed,
+          performance, and architecture for the front end."
+        type: quote
 ---
 
